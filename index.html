@@ -196,7 +196,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
 
           <!-- Sidebar Toggle (Topbar) -->
-          <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+          <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3" onclick="homeFunction()">
+            <script>
+              function homeFunction() {
+                var home =
+                document.getElementById("home");
+                  pendo.track("homeButtonClicked", {
+                    clickActionParam: "true"
+                  });
+            }
+            </script>
             <i class="fa fa-bars"></i>
           </button>
 
