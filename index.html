@@ -392,6 +392,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm" data-id="1.0-Nav-Home.Dashboard"><i class="fas fa-download fa-sm text-white-50"></i> Leave Feedback</a>
           </div>
 
+          <button type="button" class="btn" id="home" onclick="homeFunction()">Home</button>
+            <script>
+            function homeFunction() {
+              var home =
+              document.getElementById("home");
+                pendo.track("homeButtonClicked", {
+                  clickActionParam: "true"
+                });
+            }
+            </script>
+
           <!-- Content Row -->
           <div class="row">
 
