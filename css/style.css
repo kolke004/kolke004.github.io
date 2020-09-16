@@ -84,8 +84,16 @@ ul li.active a{
     .title h1 { width: 25%; } /* Show 2 logos per row on medium devices (tablets, phones in landscape) */
 }
 
+@media (max-height: 960px) and (min-height: 501px) {
+    .title h1 { height: 25%; } /* Show 2 logos per row on medium devices (tablets, phones in landscape) */
+}
+
 @media (max-width: 500px) {
     .title h1 { width: 50%; } /* On small screens, show one logo per row */
+}
+
+@media (max-height: 500px){
+    .title h1 { height: 50%; } /* On small screens, show one logo per row */
 }
 
 .button{
