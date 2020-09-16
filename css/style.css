@@ -55,12 +55,8 @@ ul li.active a{
 }
 
 @media (max-width: 960px) {
-  ul li {
-    display: block;
-  }
-  
-  ul li {
-    display: inline-block;
+  ul li a{
+  	padding: 2.5px 10px;
   }
 }
 
