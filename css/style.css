@@ -84,6 +84,12 @@ ul li.active a{
 	cursor:default;
 }
 
+@media screen and (min-width: 601px) {
+  .title h1{
+    font-size: 80px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .title h1 {
     font-size: 30px;
@@ -95,6 +101,24 @@ ul li.active a{
   	left: 50%;
   	top: 60%;
   	transform: translate(-50%, -50%);
+}
+
+@media screen and (min-width: 601px) {
+  .button{
+    position: absolute;
+  	left: 50%;
+  	top: 60%;
+  	transform: translate(-50%, -50%);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .button {
+    position: absolute;
+  	left: 50%;
+  	top: 60%;
+  	transform: translate(-50%, -50%);
+  }
 }
 
 .watchLearnBTNS{
