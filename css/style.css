@@ -1,0 +1,167 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Arial";
+	box-sizing: border-box;
+}
+
+html, body{
+    overscroll-behavior: none;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/newbackground.png);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px !important;
+	margin-right: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none !important;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid #20626f transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #20626f;
+	color: #fff;
+}
+
+ul li.active a{
+	background-color: #20626f;
+	color: #fff; 
+}
+.logo img{
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin-top: 5px;
+	margin-left: 0px;
+}
+
+.main{
+	max-width: 1200px
+	margin:	auto;
+}
+
+.title{
+	position: absolute;
+  	left: 50%;
+  	top: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+.title h1{
+	color: #fff;
+	font-size: 70px;
+	cursor:default;
+}
+
+.button{
+	position: absolute;
+  	left: 50%;
+  	top: 60%;
+  	transform: translate(-50%, -50%);
+}
+
+.watchLearnBTNS{
+	border: 2px solid #fff;
+	padding: 10px 30px;
+	background-color: transparent;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+
+.watchLearnBTNS:hover{
+	background-color: #20626f;
+	color: #fff;
+	cursor: pointer;
+}
+
+.modal1 {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 99; /* Sit on top */
+	left: 10%;
+	top: -10%;
+	width: 80%; /* Full width */
+	height: 80%; /* Full height */
+	overflow: none; /* Enable scroll if needed */
+	background-color: #66000000; /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content1 {
+	background-color: #000000;
+	color: #fff;
+	margin: 15% auto; /* 15% from the top and centered */
+	padding: 20px;
+	border: 1px solid #66000000;
+	width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close1 {
+	color: #fff;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close1:hover,
+.close1:focus {
+color: #808080;
+text-decoration: none;
+cursor: pointer;
+}
+
+.modal2 {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 99; /* Sit on top */
+	left: 0;
+	top: 5%;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: #66000000; /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content2 {
+	background-color: #000000;
+	color: #fff;
+	margin: 15% auto; /* 15% from the top and centered */
+	padding: 20px;
+	border: 1px solid #66000000;
+	width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close2 {
+	color: #fff;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+color: #808080;
+text-decoration: none;
+cursor: pointer;
+}
