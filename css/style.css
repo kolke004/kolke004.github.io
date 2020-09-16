@@ -16,11 +16,6 @@ header{
 	background-position: center;
 }
 
-.responsive1 {
-	max-width: 100%;
-	height: auto;
-}
-
 ul{
 	float: right;
 	list-style-type: none;
@@ -57,11 +52,6 @@ ul li.active a{
 	height: 100px;
 	margin-top: 5px;
 	margin-left: 0px;
-}
-
-.responsive2 {
-	max-width: 100%;
-	height: auto;
 }
 
 .main{
