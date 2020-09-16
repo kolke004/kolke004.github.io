@@ -84,6 +84,12 @@ ul li.active a{
 	cursor:default;
 }
 
+@media screen and (max-width: 600px) {
+  .title h1 {
+    font-size: 30px;
+  }
+}
+
 .button{
 	position: absolute;
   	left: 50%;
