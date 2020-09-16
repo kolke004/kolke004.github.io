@@ -121,6 +121,18 @@ ul li.active a{
 	background: #000000;
 }
 
+@media screen and (min-width: 601px) {
+  .section-2 {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .section-2 {
+    font-size: 30px;
+  }
+}
+
 .section-3{
 	background-image: url(../images/ITT2.jpg);
     background-attachment: fixed;
