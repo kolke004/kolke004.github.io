@@ -16,6 +16,11 @@ header{
 	background-position: center;
 }
 
+.responsive1 {
+	max-width: 100%;
+	height: auto;
+}
+
 ul{
 	float: right;
 	list-style-type: none;
@@ -46,58 +51,17 @@ ul li.active a{
 	color: #fff; 
 }
 
-@media (max-width: 960px) and (min-width: 501px) {
-    ul { 
-	    float: right;
-		list-style-type: none;
-		margin-top: 25px !important;
-		margin-right: 25px;
-	} /* Show 2 logos per row on medium devices (tablets, phones in landscape) */
-}
-
-@media (max-width: 500px) {
-    ul { 
-	    float: right;
-		list-style-type: none;
-		margin-top: 25px !important;
-		margin-right: 25px;
-	} /* Show 2 logos per row on medium devices (tablets, phones in landscape) */
-}
-
-@media (max-width: 960px) and (min-width: 501px) {
-    ul li { display: inline-block; } /* Show 2 logos per row on medium devices (tablets, phones in landscape) */
-}
-
-@media (max-width: 500px) {
-    ul li { display: inline-block; } /* On small screens, show one logo per row */
-}
-
-@media (max-width: 960px) and (min-width: 501px){
-	ul li a{ 
-		text-decoration: none !important;
-		color: #fff;
-		padding: 5px 20px;
-		border: 1px solid #20626f transparent;
-		transition: 0.6s ease;
-	}
-}
-
-@media (max-width: 500px) {
-	ul li a{
-		text-decoration: none !important;
-		color: #fff;
-		padding: 5px 20px;
-		border: 1px solid #20626f transparent;
-		transition: 0.6s ease;
-	}
-}
-
 .logo img{
 	float: left;
 	width: 100px;
 	height: 100px;
 	margin-top: 5px;
 	margin-left: 0px;
+}
+
+.responsive2 {
+	max-width: 100%;
+	height: auto;
 }
 
 .main{
@@ -135,24 +99,6 @@ ul li.active a{
   	left: 50%;
   	top: 60%;
   	transform: translate(-50%, -50%);
-}
-
-@media screen and (min-width: 601px) {
-  .button{
-    position: absolute;
-  	left: 50%;
-  	top: 60%;
-  	transform: translate(-50%, -50%);
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .button {
-    position: absolute;
-  	left: 50%;
-  	top: 60%;
-  	transform: translate(-50%, -50%);
-  }
 }
 
 .watchLearnBTNS{
