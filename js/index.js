@@ -4,7 +4,7 @@ function functionA()
 	var modal1 = document.getElementById("myModal1");
 
 	// Get the button that opens the modal
-	var btn1 = document.getElementById("watchVideo");
+	var btn1 = document.getElementById("watchVideo/Test");
 
 	// Get the <span> element that closes the modal
 	var span1 = document.getElementsByClassName("close1")[0];
