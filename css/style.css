@@ -10,7 +10,7 @@ html, body{
 }
 
 header{
-	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/newbackground.jpg);
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/newbackground.png);
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
@@ -22,7 +22,6 @@ ul{
 	margin-top: 25px !important;
 	margin-right: 25px;
 }
-
 
 ul li{
 	display: inline-block;
@@ -45,7 +44,6 @@ ul li.active a{
 	background-color: #20626f;
 	color: #fff; 
 }
-
 .logo img{
 	float: left;
 	width: 100px;
@@ -70,18 +68,6 @@ ul li.active a{
 	color: #fff;
 	font-size: 70px;
 	cursor:default;
-}
-
-@media screen and (min-width: 601px) {
-  .title h1{
-    font-size: 80px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .title h1 {
-    font-size: 30px;
-  }
 }
 
 .button{

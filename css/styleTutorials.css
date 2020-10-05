@@ -10,7 +10,7 @@ html, body{
 }
 
 header{
-	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/nod.jpg);
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/nod.png);
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
@@ -112,7 +112,7 @@ ul li.active a{
 
 .section-1{
       height: 100vh;
-      background-image: url(../images/nod.jpg);
+      background-image: url(../images/nod.png);
       background-attachment: fixed;
       background-size: cover;
 }
@@ -122,7 +122,7 @@ ul li.active a{
 }
 
 .section-3{
-	background-image: url(../images/internalHousing1.jpg);
+	background-image: url(../images/internalHousing1.png);
     background-attachment: fixed;
     background-size: cover;
 }
@@ -132,7 +132,7 @@ ul li.active a{
 }
 
 .section-5{
-	background-image: url(../images/internalHousing2.jpg);
+	background-image: url(../images/internalHousing2.png);
     background-attachment: fixed;
     background-size: cover;
 }
@@ -142,7 +142,7 @@ ul li.active a{
 }
 
 .section-7{
-	background-image: url(../images/ittTube.jpg);
+	background-image: url(../images/ittTube.png);
     background-attachment: fixed;
     background-size: cover;
 }
@@ -152,7 +152,7 @@ ul li.active a{
 }
 
 .section-9{
-	background-image: url(../images/nvgFunction.jpg);
+	background-image: url(../images/nvgFunction.png);
     background-attachment: fixed;
     background-size: cover;
 }
