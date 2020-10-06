@@ -73,21 +73,21 @@
         	// Random VISITOR-ID generator - WARNING WARNING WARNING - will change VISITOR-ID on every refresh //
         	// If needing static/"randomArray" VISITOR-ID, comment out up to WARNING WARNING WARNING label //
 
-        	function visitorId(length) {
-        		var result = "";
-        		var characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-        		var charactersLength = characters.length;
-        		for ( var i = 0; i < length; i++ ) {
-        			result += characters.charAt(Math.floor(Math.random() * charactersLength));
-        		}
-        		return result;
-        	}
+        	// function visitorId(length) {
+        	// 	var result = "";
+        	// 	var characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+        	// 	var charactersLength = characters.length;
+        	// 	for ( var i = 0; i < length; i++ ) {
+        	// 		result += characters.charAt(Math.floor(Math.random() * charactersLength));
+        	// 	}
+        	// 	return result;
+        	// }
         	// !!!WARNING WARNING WARNING!!! //
 
 
         	// VISITOR ARRAYS FOR NON-STATIC TESTING //
         	// Iterate through Visitor IDs in array //
-        	//var id = ["visitorTestId1", "visitorTestId2", "visitorTestId3"].find((_i, i, ar) => Math.random() < 1 / (ar.length -i));
+        	var id = ["visitorTestId1", "visitorTestId2", "visitorTestId3"].find((_i, i, ar) => Math.random() < 1 / (ar.length -i));
 
         	// Iterate through Names in array //
         	var name = ["Steve Smith", "Rick Sanchez", "Deandra Reynolds"].find((_i, i, ar) => Math.random() < 1 / (ar.length -i));
@@ -109,15 +109,15 @@
         	// Random ACCOUNT-ID generator - WARNING WARNING WARNING - will change ACCOUNT-ID on every refresh //
         	// If needing static/"randomArray" ACCOUNT-ID, comment out up to WARNING WARNING WARNING label //
 
-        	function accountMetaTestRandom(length) {
-        		var result = "";
-        		var characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-        		var charactersLength = characters.length;
-        		for ( var i = 0; i < length; i++ ) {
-        			result += characters.charAt(Math.floor(Math.random() * charactersLength));
-        		}
-        		return result;
-        	}
+        	// function accountMetaTestRandom(length) {
+        	// 	var result = "";
+        	// 	var characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+        	// 	var charactersLength = characters.length;
+        	// 	for ( var i = 0; i < length; i++ ) {
+        	// 		result += characters.charAt(Math.floor(Math.random() * charactersLength));
+        	// 	}
+        	// 	return result;
+        	// }
         	// !!!WARNING WARNING WARNING!!! //
 
         	//ACCOUNT ARRAYS FOR NON-STATIC TESTING //
@@ -138,13 +138,13 @@
             		visitor: {
 	                
 	                // uncomment line below if needing a TRUELY RANDOM VISITOR-IDs on each page refresh //
-	                id: visitorId(5),
+	                // id: visitorId(5),
 	                
 	                // uncomment line below if needing static string VISITOR-IDs //
 	                //id: 'staticTestId',
 	                
 	                // uncomment line below if needing to test a small sample of "random" VISITOR-IDs - note: VISITOR-IDs will cycle through an array of 3 pre-determined ID //
-	                //id: id,
+	                id: id,
 	                //
 	                name: name,
 	                full_name: full_name,
@@ -165,8 +165,8 @@
 	                // uncomment line below if needing to test a small sample of 'random' ACCOUNT-IDs - note: ACCOUNT-IDs will cycle through an array of 3 pre-determined IDs //
 	                id: aId,
 	                //
-                	//name: aName,
-                	name: accountMetaTestRandom(10),
+                	name: aName,
+                	//name: accountMetaTestRandom(10),
                 	is_paying: is_paying,
                 	monthly_value: monthly_value
             		}
