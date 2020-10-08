@@ -122,16 +122,16 @@
 
         	//ACCOUNT ARRAYS FOR NON-STATIC TESTING //
         	// Iterate through Account IDs in array //
-        	var aId = ["accountTestId1", "accountTestId2", "accountTestId3"].find((_, i, ar) => Math.random() < 1 / (ar.length -i));
+        	// var aId = ["accountTestId1", "accountTestId2", "accountTestId3"].find((_, i, ar) => Math.random() < 1 / (ar.length -i));
 
-        	// Iterate through Names in array //
-        	var aName = ["Leanplum", "Pendo", "Zendesk"].find((_, i, ar) => Math.random() < 1 / (ar.length -i));
+        	// // Iterate through Names in array //
+        	// var aName = ["Leanplum", "Pendo", "Zendesk"].find((_, i, ar) => Math.random() < 1 / (ar.length -i));
 
-        	// Iterate through is_paying PENDO FEEDBACK //
-        	var is_paying = ["true", "false"].find((_, i, ar) => Math.random() < 1 / (ar.length -i));
+        	// // Iterate through is_paying PENDO FEEDBACK //
+        	// var is_paying = ["true", "false"].find((_, i, ar) => Math.random() < 1 / (ar.length -i));
 
-        	// Iterate through monthly_value PENDO FEEDBACK //
-        	var monthly_value = ["100,000", "10,000", "1,000"].find((_, i, ar) => Math.random() < 1 / (ar.length -i));
+        	// // Iterate through monthly_value PENDO FEEDBACK //
+        	// var monthly_value = ["100,000", "10,000", "1,000"].find((_, i, ar) => Math.random() < 1 / (ar.length -i));
 
         		pendo.initialize({
 // VISITOR INIT //
@@ -144,14 +144,14 @@
 	                //id: 'staticTestId',
 	                
 	                // uncomment line below if needing to test a small sample of "random" VISITOR-IDs - note: VISITOR-IDs will cycle through an array of 3 pre-determined ID //
-	                id: "VISITOR-UNIQUE-ID",
+	                id: "VISITOR-UNIQUE-ID"
 	                //
-	                name: name,
-	                full_name: full_name,
-	                email: email,
-	                role: role,
-	                testLanguage: testLanguage
-            		},
+	             //    name: name,
+	             //    full_name: full_name,
+	             //    email: email,
+	             //    role: role,
+	             //    testLanguage: testLanguage
+            		// },
 
             		account: {
 // ACCOUNT INIT //
@@ -163,12 +163,12 @@
                 	//id: 'staticAccountId',
 
 	                // uncomment line below if needing to test a small sample of 'random' ACCOUNT-IDs - note: ACCOUNT-IDs will cycle through an array of 3 pre-determined IDs //
-	                id: aId,
-	                //
-                	name: aName,
-                	//name: accountMetaTestRandom(10),
-                	is_paying: is_paying,
-                	monthly_value: monthly_value
+	                // id: aId,
+	                // //
+                	// name: aName,
+                	// //name: accountMetaTestRandom(10),
+                	// is_paying: is_paying,
+                	// monthly_value: monthly_value
             		}
         		});
 			})('0084f818-df93-42ca-712f-fcdc0093e2dc');
