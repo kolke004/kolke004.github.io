@@ -1,3 +1,5 @@
+guides.disable(true)
+
 function functionA()
 {
 // Get the modal
