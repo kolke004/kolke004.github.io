@@ -1,4 +1,4 @@
-guides.disable(true)
+guides.disabled(true)
 
 function functionA()
 {
